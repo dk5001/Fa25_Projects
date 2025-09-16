@@ -32,10 +32,10 @@ function setup() {
   }
   
   let fullText = textData.join(' ').toLowerCase();
-  let rawWords = fullText.split(/\s+/).filter(word => word.length > 0);
+  let rawWords = fullText.split(/\s+/).filter(word => word.length > 0);       // Filter out empty strings
 
   // Simple and general processing: remove punctuation and filter empty strings
-  let processedWords = rawWords.map(word => word.replace(/[-.,;?!]/g, ''));
+  let processedWords = rawWords.map(word => word.replace(/[-.,;?!]/g, ''));   // Remove common punctuation
   processedWords = processedWords.filter(word => word.length > 0);
   
   // --- Step 2: Calculate Word Frequencies and track appearance order ---
