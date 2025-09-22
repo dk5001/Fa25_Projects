@@ -1,0 +1,16 @@
+{
+  "name": "nime_02_oscphone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "midi": "^2.0.0",
+    "osc": "^2.4.5"
+  }
+}
